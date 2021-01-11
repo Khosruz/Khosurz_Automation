@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="21" failures="1" name="TestSuite" time="6.209" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.boot.library.path" value="/Users/khosuzzaman/Library/Java/JavaVirtualMachines/openjdk-15.0.1/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/khosuzzaman/MyTest/AutomationSuitOfIndex"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/khosuzzaman/MyTest/AutomationSuitOfIndex"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/yr/pwq3y93j4ps338lks0yjrqvc0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/khosuzzaman/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Applications/apache-maven-3.6.3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.16"/>
+    <property name="library.jansi.path" value="/Applications/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/khosuzzaman"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="khosuzzaman"/>
+    <property name="java.class.path" value="/Applications/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.home" value="/Users/khosuzzaman/Library/Java/JavaVirtualMachines/openjdk-15.0.1/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/apache-maven-3.6.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="com.pageTest.Component_2_Test" name="clicToRemoveButtonTest" time="1.306"/>
+  <testcase classname="com.pageTest.Component_2_Test" name="displayItemsTest" time="0.321"/>
+  <testcase classname="com.pageTest.Component_2_Test" name="selectLisItemtInVisiblilityTest" time="0.734"/>
+  <testcase classname="com.pageTest.Component_2_Test" name="selectListVisiblilityTest" time="0.552"/>
+  <testcase classname="com.pageTest.Component_2_Test" name="pageTitleTest" time="0.011">
+    <failure message="React App expected:&lt;React App&gt; but was:&lt;Page Title Doesnt match&gt;" type="java.lang.AssertionError">java.lang.AssertionError: React App expected:&lt;React App&gt; but was:&lt;Page Title Doesnt match&gt;
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+	at com.pageTest.Component_2_Test.pageTitleTest(Component_2_Test.java:36)
+</failure>
+    <system-out>Before navigating to: &apos;file:///Users/khosuzzaman/MyTest/AutomationSuitOfIndex/sample/index.html&apos;
+Navigated to:&apos;file:///Users/khosuzzaman/MyTest/AutomationSuitOfIndex/sample/index.html&apos;
+</system-out>
+    <system-err>Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 35677
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1610390943.508][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+Jan 11, 2021 1:49:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.pageTest.Component_2_Test" name="clickToAddButtonTest" time="0.32"/>
+  <testcase classname="com.pageTest.Component_1_Test" name="pageTitleTest" time="0.017"/>
+  <testcase classname="com.pageTest.Component_1_Test" name="clearTheBoxTest" time="0.046"/>
+  <testcase classname="com.pageTest.Component_1_Test" name="setNewValueTest" time="0.235"/>
+  <testcase classname="com.pageTest.Component_1_Test" name="setNewValueTest" time="0.256"/>
+  <testcase classname="com.pageTest.Component_1_Test" name="setNewValueTest" time="0.208"/>
+  <testcase classname="com.pageTest.Component_1_Test" name="setNewValueTest" time="0.308"/>
+  <testcase classname="com.pageTest.Component_1_Test" name="displayTitleDataTest" time="0.41"/>
+  <testcase classname="com.pageTest.Component_1_Test" name="displayTitleDataTest" time="0.309"/>
+  <testcase classname="com.pageTest.Component_1_Test" name="displayTitleDataTest" time="0.347"/>
+  <testcase classname="com.pageTest.Component_1_Test" name="displayTitleDataTest" time="0.38"/>
+  <testcase classname="com.pageTest.Component_3_Test" name="availableDataTest" time="0.111"/>
+  <testcase classname="com.pageTest.Component_3_Test" name="firstRowDataTest" time="0.116"/>
+  <testcase classname="com.pageTest.Component_3_Test" name="getFirstColumnDataTest" time="0.126"/>
+  <testcase classname="com.pageTest.Component_3_Test" name="totalRowsAndColumnTest" time="0.089"/>
+  <testcase classname="com.pageTest.Component_3_Test" name="pageTitleTest" time="0.007"/>
+</testsuite>

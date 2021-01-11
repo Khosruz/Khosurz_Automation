@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 49.365 sec <<< FAILURE!
+pageTitleTest(com.pageTest.Component_2_Test)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: React App expected:<React App> but was:<Page Title Doesnt match>
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+	at com.pageTest.Component_2_Test.pageTitleTest(Component_2_Test.java:36)
+

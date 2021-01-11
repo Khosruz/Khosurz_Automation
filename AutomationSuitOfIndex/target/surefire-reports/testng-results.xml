@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="20" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-11T13:48:50 EST" name="Command line suite" finished-at="2021-01-11T13:49:39 EST" duration-ms="48754">
+    <groups>
+      <group name="UI Functionality">
+        <method signature="Component_1_Test.clearTheBoxTest()[pri:2, instance:com.pageTest.Component_1_Test@5123a213]" name="clearTheBoxTest" class="com.pageTest.Component_1_Test"/>
+        <method signature="Component_1_Test.displayTitleDataTest(java.lang.String)[pri:4, instance:com.pageTest.Component_1_Test@5123a213]" name="displayTitleDataTest" class="com.pageTest.Component_1_Test"/>
+        <method signature="Component_1_Test.pageTitleTest()[pri:1, instance:com.pageTest.Component_1_Test@5123a213]" name="pageTitleTest" class="com.pageTest.Component_1_Test"/>
+        <method signature="Component_1_Test.setNewValueTest(java.lang.String)[pri:3, instance:com.pageTest.Component_1_Test@5123a213]" name="setNewValueTest" class="com.pageTest.Component_1_Test"/>
+        <method signature="Component_2_Test.clickToAddButtonTest()[pri:2, instance:com.pageTest.Component_2_Test@6dde5c8c]" name="clickToAddButtonTest" class="com.pageTest.Component_2_Test"/>
+        <method signature="Component_2_Test.pageTitleTest()[pri:1, instance:com.pageTest.Component_2_Test@6dde5c8c]" name="pageTitleTest" class="com.pageTest.Component_2_Test"/>
+        <method signature="Component_3_Test.pageTitleTest()[pri:1, instance:com.pageTest.Component_3_Test@52525845]" name="pageTitleTest" class="com.pageTest.Component_3_Test"/>
+      </group> <!-- UI Functionality -->
+    </groups>
+    <test started-at="2021-01-11T13:48:50 EST" name="Command line test" finished-at="2021-01-11T13:49:39 EST" duration-ms="48754">
+      <class name="com.pageTest.Component_1_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:06 EST" name="setUp" finished-at="2021-01-11T13:49:08 EST" duration-ms="1912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pageTitleTest()[pri:1, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:08 EST" name="pageTitleTest" finished-at="2021-01-11T13:49:08 EST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:08 EST" name="tearDown" finished-at="2021-01-11T13:49:08 EST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:08 EST" name="setUp" finished-at="2021-01-11T13:49:10 EST" duration-ms="1869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clearTheBoxTest()[pri:2, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:10 EST" name="clearTheBoxTest" finished-at="2021-01-11T13:49:10 EST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearTheBoxTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:10 EST" name="tearDown" finished-at="2021-01-11T13:49:10 EST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:10 EST" name="setUp" finished-at="2021-01-11T13:49:12 EST" duration-ms="2003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="setNewValueTest(java.lang.String)[pri:3, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:12 EST" name="setNewValueTest" data-provider="getTestData" finished-at="2021-01-11T13:49:13 EST" duration-ms="236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I am fine with this process]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNewValueTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:13 EST" name="tearDown" finished-at="2021-01-11T13:49:13 EST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:13 EST" name="setUp" finished-at="2021-01-11T13:49:15 EST" duration-ms="1843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="setNewValueTest(java.lang.String)[pri:3, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:15 EST" name="setNewValueTest" data-provider="getTestData" finished-at="2021-01-11T13:49:15 EST" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I able to work]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNewValueTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:15 EST" name="tearDown" finished-at="2021-01-11T13:49:15 EST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:15 EST" name="setUp" finished-at="2021-01-11T13:49:17 EST" duration-ms="1902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="setNewValueTest(java.lang.String)[pri:3, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:17 EST" name="setNewValueTest" data-provider="getTestData" finished-at="2021-01-11T13:49:17 EST" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I am Developepr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNewValueTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:17 EST" name="tearDown" finished-at="2021-01-11T13:49:17 EST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:17 EST" name="setUp" finished-at="2021-01-11T13:49:19 EST" duration-ms="1846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="setNewValueTest(java.lang.String)[pri:3, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:19 EST" name="setNewValueTest" data-provider="getTestData" finished-at="2021-01-11T13:49:19 EST" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I am a Automation Test Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNewValueTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:19 EST" name="tearDown" finished-at="2021-01-11T13:49:19 EST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:19 EST" name="setUp" finished-at="2021-01-11T13:49:21 EST" duration-ms="1829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="displayTitleDataTest(java.lang.String)[pri:4, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:21 EST" name="displayTitleDataTest" data-provider="getTestData" finished-at="2021-01-11T13:49:22 EST" duration-ms="411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I am fine with this process]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayTitleDataTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:22 EST" name="tearDown" finished-at="2021-01-11T13:49:22 EST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:22 EST" name="setUp" finished-at="2021-01-11T13:49:24 EST" duration-ms="1834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="displayTitleDataTest(java.lang.String)[pri:4, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:24 EST" name="displayTitleDataTest" data-provider="getTestData" finished-at="2021-01-11T13:49:24 EST" duration-ms="312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I able to work]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayTitleDataTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:24 EST" name="tearDown" finished-at="2021-01-11T13:49:24 EST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:24 EST" name="setUp" finished-at="2021-01-11T13:49:26 EST" duration-ms="1909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="displayTitleDataTest(java.lang.String)[pri:4, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:26 EST" name="displayTitleDataTest" data-provider="getTestData" finished-at="2021-01-11T13:49:26 EST" duration-ms="347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I am Developepr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayTitleDataTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:26 EST" name="tearDown" finished-at="2021-01-11T13:49:26 EST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:26 EST" name="setUp" finished-at="2021-01-11T13:49:28 EST" duration-ms="1693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="displayTitleDataTest(java.lang.String)[pri:4, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:28 EST" name="displayTitleDataTest" data-provider="getTestData" finished-at="2021-01-11T13:49:28 EST" duration-ms="379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I am a Automation Test Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayTitleDataTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_1_Test@5123a213]" started-at="2021-01-11T13:49:28 EST" name="tearDown" finished-at="2021-01-11T13:49:28 EST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pageTest.Component_1_Test -->
+      <class name="com.pageTest.Component_2_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:48:50 EST" name="setUp" finished-at="2021-01-11T13:48:53 EST" duration-ms="2723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clicToRemoveButtonTest()[pri:0, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:48:53 EST" name="clicToRemoveButtonTest" finished-at="2021-01-11T13:48:54 EST" duration-ms="1304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicToRemoveButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:48:54 EST" name="tearDown" finished-at="2021-01-11T13:48:54 EST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:48:54 EST" name="setUp" finished-at="2021-01-11T13:48:56 EST" duration-ms="1859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="displayItemsTest()[pri:0, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:48:56 EST" name="displayItemsTest" finished-at="2021-01-11T13:48:56 EST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:48:56 EST" name="tearDown" finished-at="2021-01-11T13:48:56 EST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:48:56 EST" name="setUp" finished-at="2021-01-11T13:48:58 EST" duration-ms="1814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectLisItemtInVisiblilityTest()[pri:0, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:48:58 EST" name="selectLisItemtInVisiblilityTest" finished-at="2021-01-11T13:48:59 EST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLisItemtInVisiblilityTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:48:59 EST" name="tearDown" finished-at="2021-01-11T13:48:59 EST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:48:59 EST" name="setUp" finished-at="2021-01-11T13:49:01 EST" duration-ms="1821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectListVisiblilityTest()[pri:0, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:49:01 EST" name="selectListVisiblilityTest" finished-at="2021-01-11T13:49:01 EST" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectListVisiblilityTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:49:01 EST" name="tearDown" finished-at="2021-01-11T13:49:01 EST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:49:01 EST" name="setUp" finished-at="2021-01-11T13:49:03 EST" duration-ms="1836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pageTitleTest()[pri:1, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:49:03 EST" name="pageTitleTest" finished-at="2021-01-11T13:49:03 EST" duration-ms="8" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[React App expected:<React App> but was:<Page Title Doesnt match>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: React App expected:<React App> but was:<Page Title Doesnt match>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at com.pageTest.Component_2_Test.pageTitleTest(Component_2_Test.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:49:03 EST" name="tearDown" finished-at="2021-01-11T13:49:03 EST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:49:03 EST" name="setUp" finished-at="2021-01-11T13:49:05 EST" duration-ms="1859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickToAddButtonTest()[pri:2, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:49:05 EST" name="clickToAddButtonTest" finished-at="2021-01-11T13:49:06 EST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickToAddButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_2_Test@6dde5c8c]" started-at="2021-01-11T13:49:06 EST" name="tearDown" finished-at="2021-01-11T13:49:06 EST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pageTest.Component_2_Test -->
+      <class name="com.pageTest.Component_3_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_3_Test@52525845]" started-at="2021-01-11T13:49:28 EST" name="setUp" finished-at="2021-01-11T13:49:30 EST" duration-ms="1859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="availableDataTest()[pri:0, instance:com.pageTest.Component_3_Test@52525845]" started-at="2021-01-11T13:49:30 EST" name="availableDataTest" finished-at="2021-01-11T13:49:30 EST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- availableDataTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_3_Test@52525845]" started-at="2021-01-11T13:49:30 EST" name="tearDown" finished-at="2021-01-11T13:49:31 EST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_3_Test@52525845]" started-at="2021-01-11T13:49:31 EST" name="setUp" finished-at="2021-01-11T13:49:32 EST" duration-ms="1739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="firstRowDataTest()[pri:0, instance:com.pageTest.Component_3_Test@52525845]" started-at="2021-01-11T13:49:32 EST" name="firstRowDataTest" finished-at="2021-01-11T13:49:32 EST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstRowDataTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_3_Test@52525845]" started-at="2021-01-11T13:49:32 EST" name="tearDown" finished-at="2021-01-11T13:49:32 EST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_3_Test@52525845]" started-at="2021-01-11T13:49:32 EST" name="setUp" finished-at="2021-01-11T13:49:34 EST" duration-ms="1905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getFirstColumnDataTest()[pri:0, instance:com.pageTest.Component_3_Test@52525845]" started-at="2021-01-11T13:49:34 EST" name="getFirstColumnDataTest" finished-at="2021-01-11T13:49:34 EST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFirstColumnDataTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_3_Test@52525845]" started-at="2021-01-11T13:49:34 EST" name="tearDown" finished-at="2021-01-11T13:49:35 EST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_3_Test@52525845]" started-at="2021-01-11T13:49:35 EST" name="setUp" finished-at="2021-01-11T13:49:36 EST" duration-ms="1876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="totalRowsAndColumnTest()[pri:0, instance:com.pageTest.Component_3_Test@52525845]" started-at="2021-01-11T13:49:36 EST" name="totalRowsAndColumnTest" finished-at="2021-01-11T13:49:37 EST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalRowsAndColumnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_3_Test@52525845]" started-at="2021-01-11T13:49:37 EST" name="tearDown" finished-at="2021-01-11T13:49:37 EST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageTest.Component_3_Test@52525845]" started-at="2021-01-11T13:49:37 EST" name="setUp" finished-at="2021-01-11T13:49:39 EST" duration-ms="1908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pageTitleTest()[pri:1, instance:com.pageTest.Component_3_Test@52525845]" started-at="2021-01-11T13:49:39 EST" name="pageTitleTest" finished-at="2021-01-11T13:49:39 EST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTest.Component_3_Test@52525845]" started-at="2021-01-11T13:49:39 EST" name="tearDown" finished-at="2021-01-11T13:49:39 EST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pageTest.Component_3_Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
