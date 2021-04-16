@@ -1,9 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 21, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 49.365 sec <<< FAILURE!
-pageTitleTest(com.pageTest.Component_2_Test)  Time elapsed: 0.011 sec  <<< FAILURE!
-java.lang.AssertionError: React App expected:<React App> but was:<Page Title Doesnt match>
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
-	at com.pageTest.Component_2_Test.pageTitleTest(Component_2_Test.java:36)
+Tests run: 41, Failures: 3, Errors: 0, Skipped: 38, Time elapsed: 1.015 sec <<< FAILURE!
+setUp(com.pageTest.Component_2_Test)  Time elapsed: 0.584 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.base.TestBase.initialization(TestBase.java:43)
+	at com.pageTest.Component_2_Test.setUp(Component_2_Test.java:29)
+
+setUp(com.pageTest.Component_1_Test)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.base.TestBase.initialization(TestBase.java:43)
+	at com.pageTest.Component_1_Test.setUp(Component_1_Test.java:31)
+
+setUp(com.pageTest.Component_3_Test)  Time elapsed: 0.059 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.base.TestBase.initialization(TestBase.java:43)
+	at com.pageTest.Component_3_Test.setUp(Component_3_Test.java:21)
 

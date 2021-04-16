@@ -25,12 +25,12 @@ public class Component_1_Test extends TestBase {
 		super();
 	}
 
- 
 	@BeforeMethod(groups = "Main Functionality")
 	public void setUp() {
 		initialization();
 		testUtill = new TestUtill();
 		comp_1 = new Component_1_Page();
+		System.out.println("Initialized");
 	}
 	// Validate the page title
 	@Test(priority = 1, groups = "UI Functionality")
