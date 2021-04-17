@@ -1,19 +1,172 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 41, Failures: 3, Errors: 0, Skipped: 38, Time elapsed: 1.015 sec <<< FAILURE!
-setUp(com.pageTest.Component_2_Test)  Time elapsed: 0.584 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at com.base.TestBase.initialization(TestBase.java:43)
+Tests run: 81, Failures: 3, Errors: 0, Skipped: 78, Time elapsed: 9.341 sec <<< FAILURE!
+setUp(com.pageTest.Component_2_Test)  Time elapsed: 4.188 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 86
+Current browser version is 89.0.4389.128 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khosuzs-MBP.lan', ip: '2603:7000:ac41:dd19:0:0:0:1bbe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010bebdc29 chromedriver + 2464809
+1   chromedriver                        0x000000010c4f86f3 chromedriver + 8996595
+2   chromedriver                        0x000000010bd02d56 chromedriver + 650582
+3   chromedriver                        0x000000010bc7cf9a chromedriver + 102298
+4   chromedriver                        0x000000010bc79177 chromedriver + 86391
+5   chromedriver                        0x000000010bc76430 chromedriver + 74800
+6   chromedriver                        0x000000010bca8326 chromedriver + 279334
+7   chromedriver                        0x000000010bca53f3 chromedriver + 267251
+8   chromedriver                        0x000000010bc7f230 chromedriver + 111152
+9   chromedriver                        0x000000010bc801a7 chromedriver + 115111
+10  chromedriver                        0x000000010be90830 chromedriver + 2279472
+11  chromedriver                        0x000000010be9b83a chromedriver + 2324538
+12  chromedriver                        0x000000010be9b4a7 chromedriver + 2323623
+13  chromedriver                        0x000000010be77945 chromedriver + 2177349
+14  chromedriver                        0x000000010be9bd41 chromedriver + 2325825
+15  chromedriver                        0x000000010be85bda chromedriver + 2235354
+16  chromedriver                        0x000000010beb0c4a chromedriver + 2411594
+17  chromedriver                        0x000000010bec2987 chromedriver + 2484615
+18  libsystem_pthread.dylib             0x00007fff204ba950 _pthread_start + 224
+19  libsystem_pthread.dylib             0x00007fff204b647b thread_start + 15
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.base.TestBase.initialization(TestBase.java:45)
 	at com.pageTest.Component_2_Test.setUp(Component_2_Test.java:29)
 
-setUp(com.pageTest.Component_1_Test)  Time elapsed: 0.003 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at com.base.TestBase.initialization(TestBase.java:43)
-	at com.pageTest.Component_1_Test.setUp(Component_1_Test.java:31)
+setUp(com.pageTest.Component_1_Test)  Time elapsed: 2.288 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 86
+Current browser version is 89.0.4389.128 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khosuzs-MBP.lan', ip: '2603:7000:ac41:dd19:0:0:0:1bbe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010ae91c29 chromedriver + 2464809
+1   chromedriver                        0x000000010b4cc6f3 chromedriver + 8996595
+2   chromedriver                        0x000000010acd6d56 chromedriver + 650582
+3   chromedriver                        0x000000010ac50f9a chromedriver + 102298
+4   chromedriver                        0x000000010ac4d177 chromedriver + 86391
+5   chromedriver                        0x000000010ac4a430 chromedriver + 74800
+6   chromedriver                        0x000000010ac7c326 chromedriver + 279334
+7   chromedriver                        0x000000010ac793f3 chromedriver + 267251
+8   chromedriver                        0x000000010ac53230 chromedriver + 111152
+9   chromedriver                        0x000000010ac541a7 chromedriver + 115111
+10  chromedriver                        0x000000010ae64830 chromedriver + 2279472
+11  chromedriver                        0x000000010ae6f83a chromedriver + 2324538
+12  chromedriver                        0x000000010ae6f4a7 chromedriver + 2323623
+13  chromedriver                        0x000000010ae4b945 chromedriver + 2177349
+14  chromedriver                        0x000000010ae6fd41 chromedriver + 2325825
+15  chromedriver                        0x000000010ae59bda chromedriver + 2235354
+16  chromedriver                        0x000000010ae84c4a chromedriver + 2411594
+17  chromedriver                        0x000000010ae96987 chromedriver + 2484615
+18  libsystem_pthread.dylib             0x00007fff204ba950 _pthread_start + 224
+19  libsystem_pthread.dylib             0x00007fff204b647b thread_start + 15
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.base.TestBase.initialization(TestBase.java:45)
+	at com.pageTest.Component_1_Test.setUp(Component_1_Test.java:30)
 
-setUp(com.pageTest.Component_3_Test)  Time elapsed: 0.059 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at com.base.TestBase.initialization(TestBase.java:43)
+setUp(com.pageTest.Component_3_Test)  Time elapsed: 1.842 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 86
+Current browser version is 89.0.4389.128 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khosuzs-MBP.lan', ip: '2603:7000:ac41:dd19:0:0:0:1bbe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000104184c29 chromedriver + 2464809
+1   chromedriver                        0x00000001047bf6f3 chromedriver + 8996595
+2   chromedriver                        0x0000000103fc9d56 chromedriver + 650582
+3   chromedriver                        0x0000000103f43f9a chromedriver + 102298
+4   chromedriver                        0x0000000103f40177 chromedriver + 86391
+5   chromedriver                        0x0000000103f3d430 chromedriver + 74800
+6   chromedriver                        0x0000000103f6f326 chromedriver + 279334
+7   chromedriver                        0x0000000103f6c3f3 chromedriver + 267251
+8   chromedriver                        0x0000000103f46230 chromedriver + 111152
+9   chromedriver                        0x0000000103f471a7 chromedriver + 115111
+10  chromedriver                        0x0000000104157830 chromedriver + 2279472
+11  chromedriver                        0x000000010416283a chromedriver + 2324538
+12  chromedriver                        0x00000001041624a7 chromedriver + 2323623
+13  chromedriver                        0x000000010413e945 chromedriver + 2177349
+14  chromedriver                        0x0000000104162d41 chromedriver + 2325825
+15  chromedriver                        0x000000010414cbda chromedriver + 2235354
+16  chromedriver                        0x0000000104177c4a chromedriver + 2411594
+17  chromedriver                        0x0000000104189987 chromedriver + 2484615
+18  libsystem_pthread.dylib             0x00007fff204ba950 _pthread_start + 224
+19  libsystem_pthread.dylib             0x00007fff204b647b thread_start + 15
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.base.TestBase.initialization(TestBase.java:45)
 	at com.pageTest.Component_3_Test.setUp(Component_3_Test.java:21)
 
