@@ -11,6 +11,7 @@ public class ReTryAnalyzer implements IRetryAnalyzer{
 	
 	public boolean retry(ITestResult result) {
 		System.out.println("for git update");
+		System.out.println("for git update2");
 		if(counter<retryLimit) {
 			counter++;
 			return true;
